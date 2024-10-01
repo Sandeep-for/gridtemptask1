@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            padding:20px;
+             width:22vw; 
+            height:105vh;
+            border:5px solid black;
+            display:grid;
+            grid-template-areas: 
+            'area1 area2 area3'
+            'area1 area4 area6'
+            'area7 area8 area9'
+            'area10 area11 area12';
+            gap:10px;
+        }
+        .cd{
+            
+            /* height:200px; */
+            width:200px;
+            border: 2px solid red;
+        }
+        .cd1{
+            grid-area: area1;
+        }
+        .cd2{
+            grid-area:area2;
+        }
+        .cd3{
+            grid-area:area3;
+        }
+        .cd4{
+            grid-area:area4;
+        }
+        .cd5{
+            grid-area:area5;
+        }
+        .cd6{
+            grid-area:area6;
+        }
+        .cd7{
+            grid-area:area7;
+        }
+        .cd8{
+            grid-area:area8;
+        }
+        .cd9{
+            grid-area:area9;
+        }
+        /* .cd10{
+            grid-area:area10; */
+        
+        .img1{
+            height:910px;
+            width:200px;
+        }
+        .img2{
+            width:200px;
+            height:600px;
+        }
+        .img7{
+            width:200px;
+            height:350px;
+        }
+        .img8{
+            width:200px;
+            height:600px;
+        }
+        .img3{
+            width:200px;
+            height:600px;
+        }
+        .img6{
+            width:200px;
+            height: 300px;
+        }
+        .img9{
+            width:200px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="cd cd1"><img class="img1" src="../assets/images/javasript.jpg"></div>
+        <div class="cd cd2"><img class="img2" src="../assets/images/bonalu.jpg"></div>
+        <div class="cd cd3"><img class="img3" src="../assets/images/horseimages.jpg"></div>
+        <!-- <div class="cd cd4"></div> -->
+        <div class="cd cd5"></div>
+        <div class="cd cd6"><img class="img6" src="../assets/images/ganesh.jpg"></div>
+        <div class="cd cd7"><img class="img7" src="../assets/images/htmlimage.jpg"></div>
+        <div class="cd cd8"><img class="img8" src="../assets/images/cycling.jpg"></div>
+        <div class="cd cd9"><img class="img9" src="../assets/images/mahesh2.jpg"></div>
+    </div>
+</body>
+</html>
